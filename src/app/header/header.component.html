@@ -1,0 +1,228 @@
+<body>
+  <div class="wrapper">
+      <!-- ============================================================= TOP NAVIGATION ============================================================= -->
+      <nav class="top-bar animate-dropdown">
+          <div class="container">
+              <div class="col-xs-12 col-sm-6 no-margin">
+                  <ul>
+                      <li><a routerLink='/home'>Home</a></li>
+                      <li class="dropdown">
+                          <a class="dropdown-toggle"  data-toggle="dropdown" href="#change-colors">Change Colors</a>
+
+                          <ul class="dropdown-menu" role="menu" >
+                              <li role="presentation"><a role="menuitem" class="changecolor green-text" tabindex="-1" href="#" title="Green color">Green</a></li>
+                              <li role="presentation"><a role="menuitem" class="changecolor blue-text" tabindex="-1" href="#" title="Blue color">Blue</a></li>
+                              <li role="presentation"><a role="menuitem" class="changecolor red-text" tabindex="-1" href="#" title="Red color">Red</a></li>
+                              <li role="presentation"><a role="menuitem" class="changecolor orange-text" tabindex="-1" href="#" title="Orange color">Orange</a></li>
+                              <li role="presentation"><a role="menuitem" class="changecolor navy-text" tabindex="-1" href="#" title="Navy color">Navy</a></li>
+                              <li role="presentation"><a role="menuitem" class="changecolor dark-green-text" tabindex="-1" href="#" title="Darkgreen color">Dark Green</a></li>
+                          </ul>
+                      </li>
+                      <li><a routerLink="/blog">Blog</a></li>
+                      <li><a routerLink="/faq">FAQ</a></li>
+                      <li><a routerLink ="/contact">Contact</a></li>
+                      <li class="dropdown">
+                          <a class="dropdown-toggle" data-toggle="dropdown" href="#pages">Pages</a>
+                          <ul class="dropdown-menu" role="menu">
+                                                      <li><a href="index-2.html">Home</a></li>
+                                                      <li><a href="index-3.html">Home Alt</a></li>
+                                                      <li><a href="category-grid.html">Category - Grid/List</a></li>
+                                                      <li><a href="category-grid-2.html">Category 2 - Grid/List</a></li>
+                                                      <li><a href="single-product.html">Single Product</a></li>
+                                                      <li><a href="single-product-sidebar.html">Single Product with Sidebar</a></li>
+                                                      <li><a href="cart.html">Shopping Cart</a></li>
+                                                      <li><a href="checkout.html">Checkout</a></li>
+                                                      <li><a href="about.html">About Us</a></li>
+                                                      <li><a href="contact.html">Contact Us</a></li>
+                                                      <li><a href="blog.html">Blog</a></li>
+                                                      <li><a href="blog-fullwidth.html">Blog Full Width</a></li>
+                                                      <li><a href="blog-post.html">Blog Post</a></li>
+                                                      <li><a href="faq.html">FAQ</a></li>
+                                                      <li><a href="terms.html">Terms & Conditions</a></li>
+                                                      <li><a routerLink="/login">Login/Register</a></li>
+                                                      <li><a href="404.html">404</a></li>
+                                                      <li><a href="wishlist.html">Wishlist</a></li>
+                                                      <li><a href="compare.html">Product Comparison</a></li>
+                                                      <li><a href="track-your-order.html">Track your Order</a></li>
+                                                  </ul>
+                      </li>
+                  </ul>
+              </div><!-- /.col -->
+
+              <div class="col-xs-12 col-sm-6 no-margin">
+                  <ul class="right">
+                      <li class="dropdown">
+                          <a class="dropdown-toggle"  data-toggle="dropdown" href="#change-language">English</a>
+                          <ul class="dropdown-menu" role="menu" >
+                              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Turkish</a></li>
+                              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Tamil</a></li>
+                              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">French</a></li>
+                              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Russian</a></li>
+                          </ul>
+                      </li>
+                      <li class="dropdown">
+                          <a class="dropdown-toggle"  data-toggle="dropdown" href="#change-currency">Dollar (US)</a>
+                          <ul class="dropdown-menu" role="menu">
+                              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Euro (EU)</a></li>
+                              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Turkish Lira (TL)</a></li>
+                              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Indian Rupee (INR)</a></li>
+                              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Dollar (US)</a></li>
+                          </ul>
+                      </li>
+                      <li><a routerLink="/login">Register</a></li>
+                      <li><a routerLink="/login">Login</a></li>
+                  </ul>
+              </div><!-- /.col -->
+          </div><!-- /.container -->
+      </nav>
+      <header>
+          <div class="container no-padding">
+              <div class="col-xs-12 col-sm-12 col-md-3 logo-holder">
+                  <!-- ============================================================= LOGO ============================================================= -->
+                  <div class="logo">
+                      <a href="index-2.html">
+                          <img alt="logo" src="assets/images/banners/download.jpg"  width="150" height="150"/>  </a>
+                  </div><!-- /.logo -->
+                  <!-- ============================================================= LOGO : END ============================================================= -->
+              </div><!-- /.logo-holder -->
+
+              <div class="col-xs-12 col-sm-12 col-md-6 top-search-holder no-margin">
+                  <div class="contact-row">
+                      <div class="phone inline">
+                          <i class="fa fa-phone"></i> (+800) 123 456 7890
+                      </div>
+                      <div class="contact inline">
+                          <i class="fa fa-envelope"></i> contact@<span class="le-color">oursupport.com</span>
+                      </div>
+                  </div><!-- /.contact-row -->
+                  <!-- ============================================================= SEARCH AREA ============================================================= -->
+                  <div class="search-area">
+                      <form>
+                          <div class="control-group">
+                              <input class="search-field" placeholder="Search for item" />
+
+                              <ul class="categories-filter animate-dropdown">
+                                  <li class="dropdown">
+
+                                      <a class="dropdown-toggle"  data-toggle="dropdown" href="category-grid.html">all categories</a>
+
+                                      <ul class="dropdown-menu" role="menu" >
+                                          <li role="presentation"><a role="menuitem" tabindex="-1" href="category-grid.html">laptops</a></li>
+                                          <li role="presentation"><a role="menuitem" tabindex="-1" href="category-grid.html">tv & audio</a></li>
+                                          <li role="presentation"><a role="menuitem" tabindex="-1" href="category-grid.html">gadgets</a></li>
+                                          <li role="presentation"><a role="menuitem" tabindex="-1" href="category-grid.html">cameras</a></li>
+
+                                      </ul>
+                                  </li>
+                              </ul>
+
+                              <a class="search-button" href="#" ></a>
+
+                          </div>
+                      </form>
+                  </div><!-- /.search-area -->
+                  <!-- ============================================================= SEARCH AREA : END ============================================================= -->
+              </div><!-- /.top-search-holder -->
+
+              <div class="col-xs-12 col-sm-12 col-md-3 top-cart-row no-margin">
+                  <div class="top-cart-row-container">
+                      <div class="wishlist-compare-holder">
+                          <div class="wishlist ">
+                              <a href="#"><i class="fa fa-heart"></i> wishlist <span class="value">(21)</span> </a>
+                          </div>
+                          <div class="compare">
+                              <a href="#"><i class="fa fa-exchange"></i> compare <span class="value">(2)</span> </a>
+                          </div>
+                      </div>
+
+                      <!-- ============================================================= SHOPPING CART DROPDOWN ============================================================= -->
+                      <div class="top-cart-holder dropdown animate-dropdown">
+                          <div class="basket">
+                              <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                  <div class="basket-item-count">
+                                      <span class="count">3</span>
+                                      <img src="assets/images/icon-cart.png" alt="" />
+                                  </div>
+
+                                  <div class="total-price-basket">
+                                      <span class="lbl">your cart:</span>
+                                      <span class="total-price">
+                                          <span class="sign">$</span><span class="value">3219,00</span>
+                                      </span>
+                                  </div>
+                              </a>
+
+                              <ul class="dropdown-menu">
+                                  <li>
+                                      <div class="basket-item">
+                                          <div class="row">
+                                              <div class="col-xs-4 col-sm-4 no-margin text-center">
+                                                  <div class="thumb">
+                                                      <img alt="" src="assets/images/products/product-small-01.jpg" />
+                                                  </div>
+                                              </div>
+                                              <div class="col-xs-8 col-sm-8 no-margin">
+                                                  <div class="title">Blueberry</div>
+                                                  <div class="price">$270.00</div>
+                                              </div>
+                                          </div>
+                                          <a class="close-btn" href="#"></a>
+                                      </div>
+                                  </li>
+
+                                  <li>
+                                      <div class="basket-item">
+                                          <div class="row">
+                                              <div class="col-xs-4 col-sm-4 no-margin text-center">
+                                                  <div class="thumb">
+                                                      <img alt="" src="assets/images/products/product-small-01.jpg" />
+                                                  </div>
+                                              </div>
+                                              <div class="col-xs-8 col-sm-8 no-margin">
+                                                  <div class="title">Blueberry</div>
+                                                  <div class="price">$270.00</div>
+                                              </div>
+                                          </div>
+                                          <a class="close-btn" href="#"></a>
+                                      </div>
+                                  </li>
+
+                                  <li>
+                                      <div class="basket-item">
+                                          <div class="row">
+                                              <div class="col-xs-4 col-sm-4 no-margin text-center">
+                                                  <div class="thumb">
+                                                      <img alt="" src="assets/images/products/product-small-01.jpg" />
+                                                  </div>
+                                              </div>
+                                              <div class="col-xs-8 col-sm-8 no-margin">
+                                                  <div class="title">Blueberry</div>
+                                                  <div class="price">$270.00</div>
+                                              </div>
+                                          </div>
+                                          <a class="close-btn" href="#"></a>
+                                      </div>
+                                  </li>
+
+
+                                  <li class="checkout">
+                                      <div class="basket-item">
+                                          <div class="row">
+                                              <div class="col-xs-12 col-sm-6">
+                                                  <a routerLink="/cart" class="le-button inverse">View cart</a>
+                                              </div>
+                                              <div class="col-xs-12 col-sm-6">
+                                                  <a href="checkout.html" class="le-button">Checkout</a>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </li>
+
+                              </ul>
+                          </div><!-- /.basket -->
+                      </div><!-- /.top-cart-holder -->
+                  </div><!-- /.top-cart-row-container -->
+                  <!-- ============================================================= SHOPPING CART DROPDOWN : END ============================================================= -->
+              </div><!-- /.top-cart-row -->
+          </div><!-- /.container -->
+      </header>
